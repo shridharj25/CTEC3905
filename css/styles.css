@@ -3,9 +3,6 @@
 /* applies to screens smaller than 500px (first breakpoint) */
 /* and above unless overwritten below */
 
-body {
-  background: #fcc;
-} 
 
 
 
@@ -14,11 +11,12 @@ body {
 @media screen and (min-width: 500px) {
 
   /* applies to screens wider than 499px */
-  
+
   body {
     background: #cfc;
-  } 
+  }
 }
+
 
 
 
@@ -30,5 +28,66 @@ body {
 
   body {
     background: #ccf;
-  } 
+  }
+}
+
+
+
+body {
+  background:  white
+}
+
+
+
+h1{
+
+font-size: 65px;
+text-align: center;
+font-style: italic;
+}
+
+h2{
+
+  font-style: oblique;
+  font-size: 80px;
+}
+
+
+
+nav {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  background:red;
+  font-size: 30px;
+
+}
+
+img {
+
+ margin-left: auto;
+ margin-right: auto;
+
+
+}
+
+nav a {
+  color: black;
+}
+
+
+
+
+
+
+
+const button = document.getElementById ("text2");
+
+button.addEventListener("click", hello);
+let count  = 0;
+
+function hello() {
+
+  button.insertAdjacentHTML('afterend', `<p>${count}</p>`);
+  count++;
 }
