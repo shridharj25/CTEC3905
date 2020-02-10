@@ -37,8 +37,6 @@ body {
   background:  white
 }
 
-
-
 h1{
 
 font-size: 65px;
@@ -60,7 +58,7 @@ nav {
   justify-content: space-around;
   background:red;
   font-size: 30px;
-  
+
 
 }
 
@@ -76,6 +74,19 @@ nav a {
   color: Black;
   text-decoration: none;
 }
+
+nav a:hover {
+background-color: #ddd;
+color: blue;
+}
+
+
+nav a:active {
+background-color: #4CAF50;
+color: white;
+}
+
+
 
 
 
