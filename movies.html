@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <title>P17178463</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<style>
+*{
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clearing floats) */
+.row::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+<body>
+
+  <h1>Quick Films</h1>
+
+
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href ="movies.html">Movies</a>
+      <a href ="">TV Shows</a>
+      <a href ="">News</a>
+      <a href ="">About Us</a>
+    </nav>
+
+
+  <!-- <img src="images\img1.jpg" alt="lam"  width="300"  height="450"/> -->
+
+<div class="row">
+  <div class="column">
+    <img src="images\Img1.jpg" width="300"  height="450">
+    <img src="images\Img2.jpg" width="300"  height="450">
+
+  </div>
+
+
+  <div class="column">
+    <img src="images\Img3.jpg" width="300"  height="450">
+    <img src="images\Img4.jpg" width="300"  height="450">
+  </div>
+
+  <div class="column">
+    <img src="images\Img5.jpg" width="300"  height="450">
+    <img src="images\Img6.jpg" width="300"  height="450">
+
+  </div>
+
+</div>
+
+
+
+  <p id= "text">Click me</p>
+
+  <p id= "text2">PRESS</p>
+
+
+  <script src="js\scripts.js"></script>
+</body>
+</html>
