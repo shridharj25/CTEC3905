@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>P17178463</title>
   <link rel="stylesheet" href="css/styles.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 
 
@@ -15,10 +16,11 @@
 
 
   <nav>
-    <input type="checkbox" id="check">
+    <!-- <p id type="checkbox" id="check">☰</p
     <label for="check" class="checkbtn">
       <i class="fas fa-bars"></i>
-      <label>
+      <label> -->
+      <p id="menuButton"> ☰ </p>
     <label class="logo">MoviePlanet</label>
 <ul>
   <li><a class="active" href="index.html">Home</a></li>
@@ -30,8 +32,7 @@
     </nav>
 
 
-
-<div class="row">
+ <!-- <div class="row">
   <div class="column">
     <img src="images\Img1.jpg" width="300"  height="450">
     <img src="images\Img2.jpg" width="300"  height="450">
@@ -52,11 +53,42 @@
 
 </div>
 
+  -->
 
 
-  <p id= "text">Click me</p>
+  <div class="slideshow-container">
 
-  <p id= "text2">PRESS</p>
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="images\ss1.jpg" width=100%>
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="images\ss2.jpg" width=100%>
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="images\ss3.jpg" width=100%>
+    <div class="text">Caption Three</div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+
 
 
   <script src="js\scripts.js"></script>
