@@ -15,6 +15,20 @@
   body {
     background: #cfc;
   }
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+
+  nav ul li a{
+    font-size: 16px;
+  }
+  .checkbtn{
+    display: block;
+  }
+  /*ul{
+    position: fixed;*/
+  }
 }
 
 
@@ -27,21 +41,23 @@
   /* applies to screens wider than 999px */
 
   body {
-    background: #ccf;
+    background: #800000;
+    font-family: montserrat;
   }
 }
 
 
 
-body {
+/*body {
   background:  white
-}
+}*/
 
 h1{
 
 font-size: 65px;
 text-align: center;
 font-style: italic;
+color: white;
 }
 
 h2{
@@ -59,7 +75,55 @@ nav {
   background-color: black;
   font-size: 30px;
   padding: 1em;
+  height: 80px;
+  width: 100%;
 
+}
+
+label.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+
+nav ul{
+
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+
+}
+
+nav ul li a {
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  text-transform: uppercase;;
+
+}
+
+a.active,a:hover{
+  background: #1b9bff;
+  transition: .5s;
+}
+
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+#check
+{
+ display: none;
 }
 
 img {
@@ -70,25 +134,29 @@ img {
 
 }
 
-nav a {
+/*nav a {
   color: White;
   text-decoration: none;
-}
+}*/
 
-nav a:hover
+/*nav a:hover
 {
   color: green;
   transition: 2s;
-}
+}*/
 
 /* This is the colour that will be highlighted on the naviagtion bar, depending on the current page */
-.active{
+/*.active{
 
   background-color:
-}
+}*/
 
 /*  This code is resposible keeping the movies in horizontal format */
 *{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
   box-sizing: border-box;
 }
 
