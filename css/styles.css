@@ -321,3 +321,21 @@ link-caret .75s step-end infinite;
 .mainwelcome p {
   font-size: 20px;
   letter-spacing: .1em;}
+
+
+/*Transparent Box*/
+
+  div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  position: relative;
+
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
