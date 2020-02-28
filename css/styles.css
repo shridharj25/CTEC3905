@@ -107,6 +107,7 @@ label.logo{
   line-height: 80px;
   padding: 0 100px;
   font-weight: bold;
+  color: #800000;
 
 }
 
@@ -123,7 +124,7 @@ nav ul li{
 }
 
 nav ul li a {
-  color: white;
+  color: #e6f7ff;
   font-size: 17px;
   padding: 7px 13px;
   text-transform: uppercase;;
@@ -131,7 +132,7 @@ nav ul li a {
 }
 
 a.active,a:hover{
-  background: #1b9bff;
+  background: #e6ffff;
   transition: .5s;
 }
 
@@ -315,7 +316,7 @@ link-caret .75s step-end infinite;
   height: 50px;
   width: 100;
   padding: 5%;
-  background-color: #ffffff;
+  background-color: #e6f7ff;
   text-align: center;}
 
 .mainwelcome p {
@@ -339,3 +340,9 @@ div.transbox p {
   font-weight: bold;
   color: #000000;
 }
+
+
+
+/*
+  Footer Section
+*/
