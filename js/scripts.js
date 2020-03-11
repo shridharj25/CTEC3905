@@ -1,3 +1,5 @@
+"use-strict";
+
 // const button = document.getElementById ("text");
 //
 // button.addEventListener("dblclick", sup);
@@ -13,16 +15,19 @@
 
 
 // // this is for the hamburger
-// menuButton.addEventListener("click", toggleMenu);
-//
-// function toggleMenu () {
-// console.log("clicked menu");
-// if  (myNav.classList.contains("show")){
-//   myNav.classList.remove("show");
-// } else {
-//     myNav.classList.add("show");
-// }
-//////////////////////////////////////////////
+menuButton.addEventListener("click", toggleMenu);
+
+function toggleMenu () {
+  console.log("clicked menu");
+  if  (myNav.classList.contains("show")){
+    myNav.classList.remove("show");
+  } else {
+      myNav.classList.add("show");
+  }
+}
+
+////////////////////////////////////////////////////////////
+
 var slideIndex = 1;
 showSlides(slideIndex);
 

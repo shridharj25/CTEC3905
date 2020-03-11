@@ -4,6 +4,50 @@
 /* and above unless overwritten below */
 
 
+.topline{
+overflow: hidden;
+border-right: .15em solid #BF0918;
+white-space: nowrap;
+margin: 0 auto;
+letter-spacing: .1em;
+animation:
+  typing 3.5s steps(40, end),
+  link-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0% }
+  to { width: 30% }
+}
+
+
+/*Main Welcome*/
+
+
+.mainwelcome{
+  grid-area: mainwelcome;
+  border-radius: 50px;
+  height: 50px;
+  width: 100;
+  padding: 5%;
+  background-color: #e6f7ff;
+  text-align: center;}
+
+.mainwelcome p {
+  font-size: 20px;
+  letter-spacing: .1em;}
+
+
+#menuButton {
+  color: gray;
+}
+#myNav {
+  display: none;
+}
+#myNav.show {
+  display: block;
+}
+
 
 
 /* TABLET STYLES */
@@ -60,7 +104,7 @@
   padding: 1em;
   }
 
-
+}
 
 
 /* DESKTOP STYLES */
@@ -69,11 +113,18 @@
 
   /* applies to screens wider than 999px */
 
+  #menuButton {
+    display:none;
+  }
+  #myNav {
+    display: block;
+  }
+
   body {
     background: #800000;
     font-family: montserrat;
   }
-}
+
 
 
 
@@ -202,7 +253,7 @@ a.active,a:hover{
   display: table;
 }
 
-/////////////////////////////
+
 
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
@@ -302,39 +353,6 @@ footer {
   grid-area: footer;
   background: grey;}
 
-.topline{
-overflow: hidden;
-border-right: .15em solid #BF0918;
-white-space: nowrap;
-margin: 0 auto;
-letter-spacing: .1em;
-animation:
-typing 3.5s steps(40, end),
-link-caret .75s step-end infinite;
-}
-
-@keyframes typing {
-  from { width: 0% }
-  to { width: 30% }
-}
-
-
-/*Main Welcome*/
-
-
-.mainwelcome{
-  grid-area: mainwelcome;
-  border-radius: 50px;
-  height: 50px;
-  width: 100;
-  padding: 5%;
-  background-color: #e6f7ff;
-  text-align: center;}
-
-.mainwelcome p {
-  font-size: 20px;
-  letter-spacing: .1em;}
-
 
 /*Transparent Box*/
 
@@ -397,6 +415,38 @@ input[type=submit]:hover {
   width: 50%;
 }
 
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+
+}
 
 
 
