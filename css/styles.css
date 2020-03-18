@@ -40,6 +40,7 @@ animation:
 
 #menuButton {
   color: gray;
+  align-items: center;
 }
 #myNav {
   display: none;
@@ -117,7 +118,7 @@ animation:
     letter-spacing: .1em;}
 
 
-    * {box-sizing: border-box}
+
     body {font-family: Verdana, sans-serif; margin:0}
     .mySlides {display: none}
     img {vertical-align: middle;}
@@ -200,7 +201,13 @@ animation:
       animation-duration: 1.5s;
     }
 
-
+    nav ul li a {
+      color: #e6f7ff;
+      font-size: 17px;
+      padding: 7px 13px;
+      text-transform: uppercase;
+      text-decoration: none;
+      align-items: center;
 
 
 }
@@ -223,13 +230,6 @@ animation:
     background: #800000;
     font-family: montserrat;
   }
-
-
-
-
-
-
-
 
 /*body {
   background:  white
@@ -289,7 +289,7 @@ nav ul li a {
   color: #e6f7ff;
   font-size: 17px;
   padding: 7px 13px;
-  text-transform: uppercase;;
+  text-transform: uppercase;
 
 }
 
