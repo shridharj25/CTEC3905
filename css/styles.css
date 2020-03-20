@@ -59,7 +59,7 @@ animation:
   /* applies to screens wider than 499px */
 
   body {
-    background: #cfc;
+      background: #800000;
   }
   label.logo{
     font-size: 30px;
@@ -213,6 +213,16 @@ animation:
 
 
 }
+
+
+.row {
+  display: grid;
+  
+
+
+}
+
+
 }
 
 /* DESKTOP STYLES */
@@ -524,7 +534,7 @@ input[type=submit]:hover {
 /* Add padding BETWEEN each column */
 .row,
 .row > .column {
-  
+
 
 }
 
