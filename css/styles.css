@@ -55,15 +55,37 @@ animation:
 footer{
 	position: fixed;
 	bottom: 0;
-  background-color: #292c2f;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-  box-sizing: border-box;
-  width: 100%;
-  text-align: left;
-  font: bold 16px sans-serif;
 
-  padding: 55px 50px;
-  margin-top: 80px;
+}
+
+.footer-main{
+	background-color: #000000;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+
+	padding: 55px 50px;
+
+}
+
+
+
+.info2 {
+
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+
+@keyframes example {
+  0%   {color:red; left:0px; top:0px;}
+  25%  {color:green; left:200px; top:0px;}
+  50%  {color:red; left:200px; top:200px;}
+  75%  {color:green; left:0px; top:200px;}
+  100% {color:red; left:0px; top:0px;}
 }
 }
 /* TABLET STYLES */
@@ -385,7 +407,8 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  width: 50%;
+  height: 30%;
   position: relative;
   margin: auto;
 }
