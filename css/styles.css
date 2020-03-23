@@ -21,14 +21,14 @@ animation:
 }
 
 
-/*Main Welcome*/
+/*HomepageMessage*/
 
 
-.mainwelcome{
-  grid-area: mainwelcome;
+.HomeWelcome{
+  grid-area: HomeWelcome;
   border-radius: 50px;
-  height: 50px;
-  width: 100%;
+  height: 50%;
+  width: 100%auto;
   padding: 5%;
   background-color: #e6f7ff;
   text-align: center;
@@ -52,9 +52,20 @@ animation:
 }
 
 
+
 /* TABLET STYLES */
 
 @media screen and (min-width: 500px) {
+
+  /* Content */
+  .content {
+
+    color: white;
+    display: grid;
+
+
+  }
+
 
   /* applies to screens wider than 499px */
 
@@ -106,16 +117,16 @@ animation:
   padding: 1em;
   }
 
-  .mainwelcome{
-    grid-area: mainwelcome;
+  .HomeWelcome{
+    grid-area: HomeWelcome;
     border-radius: 50px;
     height: 10%;
-    width:  90%;
+    width:  auto;
     padding: 5%;
     background-color: #e6f7ff;
     text-align: center;}
 
-  .mainwelcome p {
+  .HomeWelcome p {
     font-size: 20px;
     letter-spacing: .1em;}
 
@@ -215,12 +226,7 @@ animation:
 }
 
 
-.row {
-  display: grid;
-  
 
-
-}
 
 
 }
@@ -361,7 +367,7 @@ a.active,a:hover{
 .row::after{
   content: "";
   clear: both;
-  display: table;
+
 }
 
 * {box-sizing: border-box}
