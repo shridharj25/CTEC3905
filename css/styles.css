@@ -21,21 +21,21 @@ animation:
 }
 
 
-/*HomepageMessage*/
+/*MainMessage*/
 
 
-.HomeWelcome{
-  grid-area: HomeWelcome;
+.MainMessage{
+  grid-area: MainMessage;
   border-radius: 50px;
-  height: 50%;
-  width: 100%auto;
+  height: 50px;
+  width: 100%;
   padding: 5%;
   background-color: #e6f7ff;
   text-align: center;
 
 }
 
-.mainwelcome p {
+.MainMessage p {
   font-size: 20px;
   letter-spacing: .1em;}
 
@@ -52,20 +52,23 @@ animation:
 }
 
 
+footer{
+	position: fixed;
+	bottom: 0;
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
 
+  padding: 55px 50px;
+  margin-top: 80px;
+}
+}
 /* TABLET STYLES */
 
 @media screen and (min-width: 500px) {
-
-  /* Content */
-  .content {
-
-    color: white;
-    display: grid;
-
-
-  }
-
 
   /* applies to screens wider than 499px */
 
@@ -117,16 +120,16 @@ animation:
   padding: 1em;
   }
 
-  .HomeWelcome{
-    grid-area: HomeWelcome;
+  .mainwelcome{
+    grid-area: mainwelcome;
     border-radius: 50px;
     height: 10%;
-    width:  auto;
+    width:  90%;
     padding: 5%;
     background-color: #e6f7ff;
     text-align: center;}
 
-  .HomeWelcome p {
+  .mainwelcome p {
     font-size: 20px;
     letter-spacing: .1em;}
 
@@ -226,7 +229,12 @@ animation:
 }
 
 
+.row {
+  display: grid;
 
+
+
+}
 
 
 }
@@ -367,7 +375,7 @@ a.active,a:hover{
 .row::after{
   content: "";
   clear: both;
-
+  display: table;
 }
 
 * {box-sizing: border-box}
