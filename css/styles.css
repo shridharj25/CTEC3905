@@ -87,6 +87,128 @@ footer{
   75%  {color:green; left:0px; top:200px;}
   100% {color:red; left:0px; top:0px;}
 }
+
+
+
+
+
+
+
+
+input#searchText {
+    color: #0b9be5;
+    font-size: 25px;
+}
+div#container {
+    text-align: center;
+}
+
+div#home {
+    text-align: center;
+}
+
+form#searchForm {
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+}
+input#searchText {
+    color: #0b9be5;
+    font-size: 25px;
+}
+li.collection-item {
+    display: inline-block;
+    text-align: center;
+    width: 500px;
+    height: 550px;
+    float: left;
+    margin: 0;
+}
+div#footer {
+    position: absolute;
+    bottom: 0;
+}
+ul#movies {
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+div#footer {
+    position: fixed;
+    bottom: 0;
+    background: gray;
+    width: 100%;
+
+}
+#footer > p{
+  color:#fff;
+}
+#movies > li > a > img {
+    height: 450px;
+}
+
+
+
+
+
+input#searchText {
+    color: #0b9be5;
+    font-size: 25px;
+}
+div#container {
+    text-align: center;
+}
+
+div#home {
+    text-align: center;
+}
+
+form#searchForm {
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+}
+input#searchText {
+    color: #0b9be5;
+    font-size: 25px;
+}
+li.collection-item {
+    display: inline-block;
+    text-align: center;
+    width: 500px;
+    height: 550px;
+    float: left;
+    margin: 0;
+}
+div#footer {
+    position: absolute;
+    bottom: 0;
+}
+ul#movies {
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+div#footer {
+    position: fixed;
+    bottom: 0;
+    background: gray;
+    width: 100%;
+
+}
+#footer > p{
+  color:#fff;
+}
+#movies > li > a > img {
+    height: 450px;
+}
+
+
+
+
+
+
+
 }
 /* TABLET STYLES */
 
