@@ -129,13 +129,17 @@ footer{
     body {font-family: Verdana, sans-serif; margin:0}
     .mySlides {display: none}
     img {vertical-align: middle;
-    width: 100%;}
+    }
 
     /* Slideshow container */
     .slideshow-container {
       max-width: 1000px;
       position: relative;
       margin: auto;
+
+    }
+    #ss{
+      width: 100%;
     }
 
     /* Next & previous buttons */
@@ -219,9 +223,6 @@ footer{
 
 
 }
-
-
-
 
 
 }
