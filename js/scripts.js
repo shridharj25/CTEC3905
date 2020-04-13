@@ -1,17 +1,5 @@
 "use-strict";
 
-// const button = document.getElementById ("text");
-//
-// button.addEventListener("dblclick", sup);
-//
-// function sup() {
-//   if ( (button.innerHTML === "Click me")) {
-//     button.innerHTML = "thanks";
-//   } else {
-//     button.innerHTML ="Click me";
-//   }
-//
-// }
 
 
 // // this is for the hamburger
@@ -56,3 +44,6 @@ function showSlides(n) {
 }
 
 /////////////////////////////////////////
+
+//
+ 
