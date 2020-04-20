@@ -313,7 +313,10 @@ input[type=submit]:hover {
 }
 
 
-
+.container{
+margin-left: 40px;
+width: 80%;
+}
 
 
 
@@ -404,37 +407,6 @@ a.active,a:hover{
   transition: .5s;
 }
 
-/*.checkbtn{
-  font-size: 30px;
-  color: white;
-  float: right;
-  line-height: 80px;
-  margin-right: 40px;
-  cursor: pointer;
-}
-#check
-{
- display: none;
-}*/
-
-
-
-/*nav a {
-  color: White;
-  text-decoration: none;
-}*/
-
-/*nav a:hover
-{
-  color: green;
-  transition: 2s;
-}*/
-
-/* This is the colour that will be highlighted on the naviagtion bar, depending on the current page */
-/*.active{
-
-  background-color:
-}*/
 
 /*  This code is resposible keeping the movies in horizontal format */
 *{
@@ -626,6 +598,17 @@ footer{
   margin-top: 100px;
   clear: both;
 }
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 30%;
+  margin-left: 69%;
+
+}
+
+
 
 }
 
