@@ -2,14 +2,16 @@
 ##P17178463
 ##Shridhar Jentilal
 
-- To do this assignment, I made use of varies different links, these links were primarily from  https://www.w3schools.com. I also made use of the work from the labs, on my wesbite,
+- To do this assignment, I made use of varies different links, these links were primarily from  https://www.w3schools.com. I also made use of the work from the labs, on my website,
 
 ##Index.html(HomePage)
  This is the main Page of my website, the HomePage
 
-- In my HomePage, I made use of the slideshow gallery to display the images of three movies, after 5 seconds.  https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp. This Link has the code that I have used to achieve this, but, I had to modify it in a way where the slideshow gallery changes the images automatically as suppose to when the user clicks on the image.
+- In my HomePage, I made use of the slideshow gallery to display the images of three movies, after 5 seconds.  https://www.w3schools.com/. This Link has the code that I have used to achieve this, but, I had to modify it in a way where the slideshow gallery changes the images automatically as suppose to when the user clicks on the image.
 
  - The logo was created using a online logo creator; https://www.tailorbrands.com/
+
+ - The HomePage also has a type writer animation. I learnt this code from https://www.w3schools.com
 
 ##Movies.html(Movies)
 
