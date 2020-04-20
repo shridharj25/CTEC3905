@@ -3,18 +3,18 @@
 apikey = 'f39f6480';
 //for ( )
 
-const form = document.getElementById('searchForm');
+const form = document.getElementById('SearchBox');
 
 form.addEventListener('submit', fetchResults);
 
 function fetchResults(event) {
     event.preventDefault();
 
-    const input = document.querySelector('#input').value;
+    const type = document.querySelector('#type').value;
 
-    let outPut = document.getElementById('outPut');
-    url = 'https://www.omdbapi.com/?apikey=f39f6480&s=' + input;
-    //alert(input);
+    let Movie = document.getElementById('Movie');
+    url = 'https://www.omdbapi.com/?apikey=f39f6480&s=' + type;
+    //alert(type);
 
     fetch(url)
         .then(response => response.json())
@@ -31,9 +31,9 @@ function fetchResults(event) {
                 console.log(element.Poster);
 
                 //console.log(results.Title);
-               // outPut = document.getElementById('outPut').innerHTML = element.Title;
+               // Movie = document.getElementById('Movie').innerHTML = element.Title;
 
-               const names = document.getElementById('names');
+               const names = document.getElementById('Name');
 
                const list = document.createElement('div');
 
@@ -49,15 +49,13 @@ function fetchResults(event) {
                list.appendChild(p);
 
 
-               var myImage = new Image(10, 400);
+               var myImage = new Image(40, 1000);
                myImage.src = element.Poster;
                document.body.appendChild(myImage);
                list.append(myImage);
 
-                //qoutPut = document.getElementById('outPut-q').innerHTML = data.quote.body;
+                //qMovie = document.getElementById('Movie-q').innerHTML = data.quote.body;
             });
-
-
 
         })
     //.catch(() => console.log('Errorrr...'));

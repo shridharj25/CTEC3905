@@ -145,11 +145,11 @@ input[type=submit]:hover {
 
 }
 
-#outPut{
+#MovieApi{
   color: White;
   margin-left: 70%;
   background-color: #45a049;
-  width: 10%;
+  width: 15%;
 
 }
 /* TABLET STYLES */
