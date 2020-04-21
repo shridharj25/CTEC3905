@@ -7,10 +7,8 @@
   <link rel="stylesheet" href="css/styles.css">
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
-
-
 <body>
-
+  <!-- Start Of Navigation Bar -->
   <nav>
     <label class="logo"><img src="images/logo.png" alt="" /></label>
     <p id="menuButton"> ☰ </p>
@@ -21,44 +19,34 @@
   <li><a href ="ContactUs.html">Contact Us</a></li>
 </ul>
     </nav>
-
-
+  <!-- End Of Navigation Bar -->
+    <!-- Start Of Form Container -->
     <div class="container">
-
         <label >Name</label>
         <input type="text" id="name" name="Name" placeholder="Your Name">
-
         <label >Email</label>
         <input type="text" id="Email" name="Email" placeholder="Enter Your EMail">
-
         <label>Reason</label>
         <select id="reason" name="Reason">
           <option value="MissingInfo">Missing/incorrect movie or TV Show</option>
           <option value="Advertsing">Request to put adverts on our website</option>
           <option value="GeneralQuery">General Enquiry</option>
         </select>
-
         <label>Explain</label>
         <textarea id="explain" name="explain" placeholder="Please include as much information as possile" style="height:200px"></textarea>
-
         <input type="submit" value="Submit">
     </div>
-
+      <!-- End Of Form Container -->
 </br>
-  
 <!-- Footer -->
-
   <footer class="footer-main">
-
-  		<div class="footer-left">
-
   		<h3>MoviePlanet <img id="footimg" src="images/logo.png" alt=""></h3>
-
   		<p class="footer-links">
   		<a href="#">Home</a>
   	·
   		<a href="#">Contact Us</a>
 </footer>
+  <!-- Script file linked for menu button to work when in tablet style -->
   <script src="js\menu.js"></script>
 </body>
 </html>

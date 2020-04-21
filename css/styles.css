@@ -16,13 +16,11 @@ animation:
   typing 3.5s steps(40, end),
   link-caret .75s step-end infinite;
 }
-
 /*This sets the begining of where the text starts to type till the end*/
 @keyframes typing {
   from { width: 0% }
   to { width: 40% }
 }
-
 /*HomepageMessage styling code for index page*/
 .MainMessage{
   grid-area: MainMessage;
