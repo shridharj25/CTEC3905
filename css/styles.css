@@ -4,26 +4,26 @@
 /* and above unless overwritten below */
 
 
+/*This code is for the homepage animation at the start of the page*/
 .topline{
 overflow: hidden;
 border-right: .15em solid #BF0918;
 white-space: nowrap;
 margin: 0 auto;
 letter-spacing: .1em;
+/*This animation code sets the time for which the animation does its tpying once refreshed*/
 animation:
   typing 3.5s steps(40, end),
   link-caret .75s step-end infinite;
 }
 
+/*This sets the begining of where the text starts to type till the end*/
 @keyframes typing {
   from { width: 0% }
-  to { width: 30% }
+  to { width: 40% }
 }
 
-
-/*HomepageMessage*/
-
-
+/*HomepageMessage styling code for index page*/
 .MainMessage{
   grid-area: MainMessage;
   border-radius: 50px;
@@ -32,36 +32,34 @@ animation:
   padding: 5%;
   background-color: #e6f7ff;
   text-align: center;
-
 }
-
+/*Style for the text written inside the main message box*/
 .mainwelcome p {
   font-size: 20px;
   letter-spacing: .1em;}
-
-
+/*Styling button code for the Hamburger menu, setting the colour and aligning the content in the middle*/
 #menuButton {
   color: gray;
   align-items: center;
 }
+/*Hides the link tabs*/
 #myNav {
   display: none;
 }
+/*Shows the items once the menu button is clicked*/
 #myNav.show {
   display: block;
 }
-
-
+/*Setting the height and colour of the footer*/
 footer{
   background-color:black;
   height: 100px;
-
 }
+/*Styling the footer img logo width and height*/
 #footimg{
   width: 20%;
   height:30%;
 }
-
 /* This code focuses the formatting of the information box found in the movies page */
 .info2 {
   border-radius: 5px;
@@ -74,44 +72,12 @@ footer{
   color: white;
   margin-left: 50px;
 }
-
-#videoal {
-    /* ... put any margin, padding, etc. here you like */
-}
-
-#videoal div.video {
-    display:flex;
-    zoom: 1;
-
-    width: 200px;
-    height: 200px;
-    margin: 0 10px 10px 0;
-}
-
-#videoal div.video video {
-    width: 100%;
-    height: 100%;
-}
-
-
+/*setting the size and color of text on the movies page*/
 h4{
   font-size: 30px;
   color: White;
-
 }
-
-.information {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-  width: 50%;
-  height: 500px;
-  margin-top: -565px;
-
-}
-
-/*Contact details form box */
-
+/*Contact details form box, setting the necessary styling of the input text*/
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
@@ -122,7 +88,7 @@ input[type=text], select, textarea {
   margin-bottom: 16px;
   resize: vertical;
 }
-
+/*Contact details form box, setting the necessary styling of the submit box*/
 input[type=submit] {
   background-color: #4CAF50;
   color: white;
@@ -131,31 +97,26 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
 }
-
+/*Contact details form box, changing colour of backgroud once hovered over of the submit box*/
 input[type=submit]:hover {
   background-color: #45a049;
 }
-
+/* setting the styling for the form box in the contact details page*/
 .container {
-  border-radius: 5px;
+  border-radius: 0px;
   background-color: #f2f2f2;
-  padding: 20px;
-  width: 30%;
-  margin-left: 69%;
-
+  padding: 10px;
+  width: 90%;
+  margin-left: 1%;
 }
-
+/*Style for the search box in the "movies.html" page*/
 #MovieApi{
   color: White;
   margin-left: 70%;
   background-color: #45a049;
   width: 15%;
-
 }
-
-
-
-
+/*This line of code sets the animation on the */
 #animation {
   position: relative;
   color: red;
@@ -169,8 +130,6 @@ input[type=submit]:hover {
   background-repeat: no-repeat;
   background-size: 30%;
   animation: animate 6s linear infinite;
-  /* -webkit-background-clip: text;
-  -webkit-text-fill-color: rgba(255, 255, 255, 0); */
 }
 
 @keyframes animate {
@@ -349,10 +308,6 @@ input[type=submit]:hover {
 }
 
 
-.container{
-margin-left: 40px;
-width: 80%;
-}
 
 
 
@@ -620,11 +575,8 @@ div.transbox p {
 
 }
 
-/* This code focuses the formatting of the information box found in the movies page */
-.info2 {
 
-  margin-left: 100px;
-}
+
 
 footer{
   width: 100%;
@@ -635,14 +587,6 @@ footer{
   clear: both;
 }
 
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-  width: 30%;
-  margin-left: 69%;
-
-}
 
 
 
