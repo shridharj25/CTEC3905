@@ -13,7 +13,7 @@ function toggleMenu () {
   }
 }
 
-apikey = 'f39f6480'; // API key for the movies database
+apikey = 'db82ad64'; // API key for the movies database
 
 
 const form = document.getElementById('SearchBox'); //Getting the id of the searchbox
@@ -23,7 +23,7 @@ function getsearchquery(event) { // starting of function, running the search que
     event.preventDefault();// method canceling the event if required when submitting the form.
     const type = document.querySelector('#type').value; // Assigning the id to the searchbox
     let Movie = document.getElementById('Movie'); // getting the id tag of movie from the html
-    apilink = 'https://www.omdbapi.com/?apikey=f39f6480&s=' + type; // the api link followed by the movie search in order to present it
+    apilink = 'https://www.omdbapi.com/?apikey=db82ad64&s=' + type; // the api link followed by the movie search in order to present it
 
     fetch(apilink)
         .then(response => response.json())
