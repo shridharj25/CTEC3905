@@ -29,7 +29,7 @@ In this page, I made use of a table like format for the tv shows. In the tablet 
 Contains a user form, to allow people to submit a query. I used [Contact Form](https://www.w3schools.com/howto/howto_css_contact_form.asp) To achieve this.
 
 # Issues
-- initially I had trouble with removing the "onclick" from the html and use the js. But, even after 2 days of work, It was not successful. Instead, I changed the need of having a previous and next button into the automatically changing it.
+- initially I had trouble with removing the "onclick" from the html and use the js. But, even after 2 days of work, It was not successful. Instead, I changed the need of having a previous and next button into a automatic change
 
 - Getting the grid/table to format itself properly on the tv news page, was proven to be quite difficult. This is because, I had the issue where not only the image sizes were different but also the boxes where the text is written. This only was the case in the tablet view. But, After some research in the w3schools website, [Table Grid](https://www.w3schools.com/css/css_grid.asp) was able to conjure up a relatively decent grid with images and text.
 

@@ -357,9 +357,51 @@ img {vertical-align: middle;
   Footer Section, code for the positioning, style, Dimensions and color
 */
 footer{
+}
+div.resimg {
+    border: 1px solid #ccc;
+}
 
+div.resimg:hover {
+    border: 1px solid #777;
+}
 
+div.resimg img {
+    width: 100%;
+    height: auto;
+}
 
+div.desc {
+    padding: 20px;
+    text-align: center;
+}
 
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 }
