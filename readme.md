@@ -4,6 +4,8 @@
 
 - To do this assignment, I made use of varies different links, these links were primarily from  https://www.w3schools.com. I also made use of the work from the labs, on my website,
 
+-Making use of ul and li for my nav bar really helped me with creating a more "controlled" navbar.
+
 # index.html(HomePage)
  This is the main Page of my website, the HomePage
 

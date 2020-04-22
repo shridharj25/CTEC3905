@@ -404,4 +404,9 @@ div.desc {
     display: table;
     clear: both;
 }
+
+.responsiveimg{
+  width:300px;
+  height:400px;
+}
 }
